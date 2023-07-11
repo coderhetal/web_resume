@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: auto;
+     box-sizing: border-box;
+
+}
+
+
+/*navbar*/
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navbar ul li {
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+
+}
+
+.navbar ul li a:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+
+}
+
+
+/*Home section */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('final.jpeg') no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    right: 15%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.headings{
+    /*font-family: century;*/
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+
+}
+.btn
+{
+    padding: 10px 35px;
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0  0 5 px white, 0 0 10px white , 0 0 15px white ;
+font-weight: bold;
+
+}
+
+/*about */
+#about
+{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+    
+}
+#pic
+{
+    display: flex;
+}
+#pic img{
+   
+    justify-content: center;
+    margin: 10px 15px;
+    width: 575px;
+    height: 400px;
+    margin-left: 12%;
+}
+
+#intro
+{border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    
+    margin: 10px 15px;
+    padding: 20px 10px  ;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+   
+   
+
+
+}
+
+#intro h2
+{
+   font-size: 3rem;
+   margin-bottom: 20px;
+   text-align: center;
+   color: white;
+ 
+  
+}
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    color :white;
+    align-items: center;
+    padding: 20px;
+}
+.gallery
+{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.gallery img
+{
+   width: 360px;
+   height: 240px;
+   margin: 10px ;
+}
+
+/*SERvice*/
+#skills
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+.row
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+   width: 350px;
+   height: 450px;
+   border: 1px solid black;
+   margin: 10px;
+   align-items: center;
+   text-align: justify;
+padding: 10px;
+border-radius: 15px;
+background:linear-gradient(to top,rgb(255,45,45) 50% , white 50%);
+background-size: 100% 200%;
+transition: all .8s;
+}
+.box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(255,45,45);
+}
+
+
+.box img{
+width: 80px;    
+height: 80px;
+background-color: white;
+padding: 10px;
+
+}
+
+
+
+.headings2
+{
+    font-size: 2rem;
+    text-align: center;
+    margin: 40px 0px;
+    color: black;
+
+}
+.row1
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+ 
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+   width: 350px;
+   height: 450px;
+   border: 1px solid black;
+   margin: 10px;
+   align-items: center;
+   text-align: justify;
+padding: 10px;
+border-radius: 15px;
+background:linear-gradient(to top,rgb(242, 217, 27) 50% , white 50%);
+background-size: 100% 200%;
+transition: all .8s;
+font-size: 20px;
+}
+.box1:hover{
+    background-position: left bottom;
+    color: black;
+    border: none;
+    box-shadow: 0 0 20px rgb(255,45,45);
+}
+
+
+.box1 img{
+width: 80px;    
+height: 80px;
+background-color: white;
+padding: 10px;
+
+}
+
+
+
+
+.box_hob{
+    display: flex;
+    flex-direction: column;
+   width: 350px;
+   height: 450px;
+   border: 1px solid black;
+   margin: 10px;
+   align-items: center;
+   text-align: justify;
+padding: 10px;
+border-radius: 15px;
+background:linear-gradient(to top,greenyellow 50% , white 50%);
+background-size: 100% 200%;
+transition: all .8s;
+}
+.box_hob:hover{
+    background-position: left bottom;
+    color: blue;
+    border: none;
+    box-shadow: 0 0 20px green;
+}
+
+
+.box_hob img{
+width: 80px;    
+height: 80px;
+background-color: white;
+padding: 10px;
+
+}
+
+/*section id is contact make it flex*/
+#contact
+{
+    height: 344px;
+    justify-content: center;
+    background-color: black fixed;
+}
+
+#contact::before
+{
+    content: "";
+    position: absolute;
+    margin: 200px;
+    
+    width: 100%;
+    height: 30%;
+    
+   justify-content: center;
+}
+
+#contact-text
+{
+   
+  
+   display: flex;
+   justify-content:center;
+   text-align: center;
+   
+   
+
+   
+ 
+}
+#contact-text img{
+height: 100px;
+border:2px solid rgb(11, 0, 0);
+padding: 10px;
+
+background-color: rgb(14, 0, 0);
+
+}
+#list
+{
+padding: 34px;
+
+}
+
+#list img :hover{
+
+    color: blue;
+    cursor: pointer;
+    
+    }
+
+
+
