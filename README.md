@@ -2,6 +2,7 @@
 
 
 This is a portfolio website showcasing my work and skills as a developer.
+
 Link to the website :https://coderhetal.github.io/web_resume/
 
 ## Table of Contents
@@ -9,10 +10,7 @@ Link to the website :https://coderhetal.github.io/web_resume/
 - [Description](#description)
 - [Technologies Used](#technologies-used)
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contact](#contact)
+
 
 ## Description
 
